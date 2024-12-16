@@ -1,1 +1,7 @@
 !.gitignore
+.venv
+temp/
+data/
+apps/
+bin/
+

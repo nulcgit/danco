@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+mkdir temp apps data
 sudo DEBIAN_FRONTEND=noninteractive apt full-upgrade -yq
 sudo DEBIAN_FRONTEND=noninteractive apt install -y git docker.io docker-compose-v2 build-essential python3-dev python3-pip python3-venv tmux cron iputils-ping net-tools unzip
 sudo usermod -aG docker $USER

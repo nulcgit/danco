@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+mkdir temp apps data
 yes | sudo pacman -Syu
 yes | sudo pacman -S base-devel git docker docker-compose python3 python-pip tmux cron iputils net-tools unzip
 sudo usermod -aG docker $USER
