@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
 
+cd "$(dirname "$0")"/..
+$PWD
+source .venv/bin/activate
+python3 --version
+pip --version
